@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aniversariantes - A.M.E Luz das Nações</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
+</head>
+<body>
+
+  <header class="header">
+    <img src="logo.png" alt="Logo Igreja" class="logo">
+    <h1>Aniversariantes</h1>
+  </header>
+
+  <div class="container">
+    <div class="form-card">
+      <h2>Cadastrar</h2>
+      <input type="text" id="nome" placeholder="Nome">
+      <input type="date" id="data">
+      <input type="text" id="endereco" placeholder="Endereço">
+      <button onclick="adicionarAniversariante()">Adicionar</button>
+    </div>
+
+    <div class="calendar-card">
+      <div id="calendar"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
