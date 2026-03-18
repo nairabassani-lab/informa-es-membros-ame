@@ -1,0 +1,11 @@
+body { font-family: 'Poppins', sans-serif; margin: 0; background: #F5F5F5; }
+.header { background: linear-gradient(90deg, #1F3A73, #2E4F9E); color: white; display: flex; align-items: center; gap: 15px; padding: 15px 30px; }
+.logo { height: 60px; }
+h1 { margin: 0; }
+.container { display: grid; grid-template-columns: 1fr 2fr; gap: 20px; padding: 20px; }
+.form-card, .calendar-card { background: white; padding: 20px; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+h2 { color: #1F3A73; }
+input { width: 100%; padding: 10px; margin-top: 10px; border-radius: 10px; border: 1px solid #ccc; }
+button { width: 100%; padding: 12px; margin-top: 15px; border-radius: 10px; border: none; background: #F57C00; color: white; font-weight: bold; cursor: pointer; }
+button:hover { background: #FF9800; }
+.fc-toolbar-title { color: #1F3A73; }
